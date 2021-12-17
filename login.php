@@ -35,7 +35,7 @@ if (isset($_POST['login']) && $_POST['login']=="yes") {
 
     if ($result['password']!=md5($password)) {
         $url=get_site_url("login.php?password=Password is incorrect.");
-        header('location:'.$url);
+         header('location:'.$url);
         die();
     }
 
@@ -60,7 +60,7 @@ if (isset($_POST['login']) && $_POST['login']=="yes") {
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 
 <head>
 

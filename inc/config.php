@@ -8,7 +8,7 @@ $GLOBALS['password']='';
 $GLOBALS['dbname']='phpcurd';
 $GLOBALS['cookie_name'] = "php_crud_login";
 
-
+include_once ('inc/user.inc.php');
 include_once('inc/connection.php');
 include_once('inc/functions.php');
 include_once ('inc/auth.inc.php');
